@@ -1,0 +1,11 @@
+.no-data {
+    margin-top: 25px;
+}
+
+.no-data__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+
+}

@@ -1,0 +1,30 @@
+.custom-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.img--size {
+  width: 100px;
+}
+
+.signup--button {
+  color: blue;
+}
+
+.signup_link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.buttons--container {
+  display: flex;
+  justify-content: space-evenly;
+}

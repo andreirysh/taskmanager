@@ -1,0 +1,107 @@
+.task-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1140px;
+  background-color: rgba(128, 128, 128, 0.508);
+}
+
+.task__container {
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(238, 236, 236);
+  margin: 10px;
+}
+
+.task__page {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  max-width: 360px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.task__summary {
+  font-size: 20px;
+  margin-bottom: 10px;
+  max-height: 50px;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.task__metadata {
+  margin-bottom: 10px;
+}
+
+.task__metadata span {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.task__issue-type {
+  background-color: #007bff;
+}
+
+.task__priority {
+  background-color: #dc3545;
+}
+
+.task__status {
+  background-color: #28a745;
+}
+
+.task__details {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task__description {
+  font-size: 25px;
+  margin-bottom: 10px;
+  max-height: 120px;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.task__footer {
+  font-size: 14px;
+  color: #777;
+}
+
+.task__footer span {
+  margin-right: 10px;
+}
+
+.task__assignee {
+  font-weight: bold;
+}
+
+.task-container {
+  margin: 0 auto;
+  max-width: 610px;
+}
+
+.task__status--backlog {
+  background-color: gray;
+}
+
+.task__status--in-progress {
+  background-color: #236232;
+}
+
+.task__status--to-do {
+  background-color: #bc531e;
+}
+
+.task__status--done {
+  background-color: #3c9a0a;
+}
